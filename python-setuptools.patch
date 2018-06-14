@@ -1,0 +1,9 @@
+diff --git a/python-setuptools.spec b/python-setuptools.spec
+index bbe52ab..e9a1661 100644
+--- a/python-setuptools.spec
++++ b/python-setuptools.spec
+@@ -1,5 +1,4 @@
++%global _without_tests 1
+ %global srcname setuptools
+ 
+ #  WARNING  When bootstrapping, disable tests as well,

@@ -1,0 +1,9 @@
+diff --git a/python-whoosh.spec b/python-whoosh.spec
+index 90e7ad2..73420bf 100644
+--- a/python-whoosh.spec
++++ b/python-whoosh.spec
+@@ -1,3 +1,4 @@
++%global _without_docs 1
+ %if 0%{?fedora} || 0%{?rhel} >= 7
+ %global with_python3 1
+ %endif

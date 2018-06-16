@@ -1,9 +1,0 @@
-diff --git a/python-setuptools_scm.spec b/python-setuptools_scm.spec
-index 29da65d..2df4232 100644
---- a/python-setuptools_scm.spec
-+++ b/python-setuptools_scm.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- # Tests are not included in PyPI tarball
- %bcond_with tests
- 

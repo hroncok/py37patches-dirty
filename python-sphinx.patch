@@ -1,9 +1,0 @@
-diff --git a/python-sphinx.spec b/python-sphinx.spec
-index 418ed01..609ccd7 100644
---- a/python-sphinx.spec
-+++ b/python-sphinx.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- %if 0%{?fedora} || 0%{?rhel} > 7
- %global with_python3 1
- %else
